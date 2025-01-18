@@ -13,6 +13,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'gara-theme-dark-brown': '#2C1800',
+        'gara-theme-yellow': '#F0B042',
+        'gara-theme-orange': '#9F4E36',
+        'gara-theme-green': '#5A805C',
+        'gara-theme-skyblue': '#76A4C3',
+        'gara-theme-navyblue': '#303B67',
+      }
     },
     container: {
       padding: {

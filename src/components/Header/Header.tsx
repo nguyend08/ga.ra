@@ -14,7 +14,7 @@ function Header() {
           rel="noopener noreferrer"
         > */}
           <div className="flex flex-col">
-            <h1 className="text-2xl uppercase lgtext-4xl text-sky-400/100 font-semibold	">
+            <h1 className="text-2xl uppercase lgtext-4xl text-gara-theme-orange font-semibold	">
               {sitename}
             </h1>
             <p className="text-xl font-xl text-slate-800 dark:text-slate-100">
