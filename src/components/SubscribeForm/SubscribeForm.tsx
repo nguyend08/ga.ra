@@ -10,8 +10,8 @@ function SubscribeForm() {
   return (
     <>
     { hideSubscribeForm === false ? (
-          <section className="text-center lg:m-7 mt-10 w-80 p-3">
-            <form className="space-y-6" action="#" method="POST">
+          <section>
+            <form className="space-y-6 max-w-md p-4" action="#" method="POST">
               <div>
                 <label
                   htmlFor="email"

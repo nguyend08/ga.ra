@@ -9,10 +9,10 @@ const inter = Inter({
   subsets: ['latin'] 
 })
 
-export const metadata = {
-  title: "Home - Comming soon Template",
-  description: 'This is a simple coming soon template built with NextJS and TailwindCSS. It is a lightweight and responsive template that can be used for various projects that require a "coming soon" page.',
-}
+// export const metadata = {
+//   title: "Home - Comming soon Template",
+//   description: 'This is a simple coming soon template built with NextJS and TailwindCSS. It is a lightweight and responsive template that can be used for various projects that require a "coming soon" page.',
+// }
 
 export default function RootLayout({
   children,
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" />        
+        <link rel="gara icon" href="/favicon.ico" />        
       </Head>
       <body className={ `${inter.className} bg-gray-200	min-h-screen dark:bg-[#0d1117] `}
       >
