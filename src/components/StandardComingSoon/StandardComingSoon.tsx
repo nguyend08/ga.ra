@@ -36,7 +36,7 @@ export default function StandardComingSoon() {
             <ComingSoonContent />
             <SubscribeForm />
           </div>
-          <div className="w-1/3">
+          <div className="w-1/3 flex flex-col justify-center align-center">
             <Image src={Garage_Filled_Orange} alt="Logo" className="w-auto" />
           </div>
         </div>
